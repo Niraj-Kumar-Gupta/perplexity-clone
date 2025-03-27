@@ -1,0 +1,65 @@
+.webSearchWorkContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    /* align-items: center; */
+  
+}
+.webSearchWork{
+    background: #dee3fbab;
+    border-radius: 1rem;
+    padding: 0.7rem 1rem;
+    width: 11rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    border: 1px solid #cccccc53;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.webSearchWork:hover{
+    background: #cbd0e9ab;
+     cursor: pointer;
+}
+.webSearchWork span{
+    line-height: 1.1rem;
+    font-size: 0.9rem;
+    font-weight: 450;
+     width: 100%;
+     overflow: hidden;
+     text-overflow: ellipsis; 
+     display: -webkit-box;
+     -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+
+.cardFooter {
+    width: 100%;
+    padding-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+
+  }
+  
+.websiteLogo{
+    width: 16px;
+    height: 16px;
+    /* border: 1px solid rgba(0, 0, 0, 0.562);
+    border-radius: 50%; */
+}
+.websiteName {
+    font-size: 0.875rem;
+    color: #7d7d7f;
+  }
+
+  

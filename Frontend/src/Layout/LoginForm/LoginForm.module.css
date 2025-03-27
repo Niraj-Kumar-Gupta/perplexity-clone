@@ -1,0 +1,50 @@
+.loginCard {
+    background: #d1d8e33d;
+    border-radius: 10px;
+    border: 1px solid #261ad64a;
+    padding: 1.6rem 1.5rem;
+    box-shadow: 0px 0px 80px rgba(102, 128, 244, 0.471);
+  }
+
+  .title {
+    padding-top: 0.6rem;
+    text-align: center;
+    line-height: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(55, 40, 95, 0.808);
+  }
+  .subTitle {
+    text-align: center;
+    color:#717172;
+    padding-bottom: 0.6rem;
+  }
+  .privacyLoginIcon{
+    font-size: 4rem;
+    padding: 0.3rem 0.1rem;
+    border-radius: 40%;
+    box-shadow: 1px 0px 80px rgba(37, 173, 89, 0.632);
+    cursor:pointer;
+    background: linear-gradient(90deg, #17821b91, #81c78491);
+  }
+  
+  .AuthIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    
+  }
+  .googleIcon{
+    font-size: 2.5rem;
+    cursor:pointer;
+    padding-bottom: 0.5rem;
+  }
+  .lineIcon{
+    font-size: 3.3rem;
+    color: #71717256;
+  }
+  .fingerIcon{
+    font-size: 2.3rem;
+     cursor:pointer;
+  }

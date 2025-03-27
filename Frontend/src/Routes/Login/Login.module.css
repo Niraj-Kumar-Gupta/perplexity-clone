@@ -1,0 +1,22 @@
+
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 0rem 4.5rem;
+    margin-top: 3rem;
+  }
+.textCard{
+    width: 45%;
+    height: auto;
+    font-size: 19px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+} 
+.loginImg{
+  width:45vw;
+  height: fit-content;
+  filter: drop-shadow(0px 0px 70px rgba(4, 13, 110, 0.515));
+}
+.loginImg:hover{
+  filter: drop-shadow(0px 0px 70px rgba(110, 4, 4, 0.515));
+}

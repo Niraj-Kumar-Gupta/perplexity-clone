@@ -1,0 +1,95 @@
+.signup-card {
+    width: 420px;
+    background: #d1d8e33d;
+    border-radius: 10px;
+    border: 1px solid #261ad64a;
+    padding: 25px 20px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 80px rgba(102, 128, 244, 0.471);
+  }
+
+  .title {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 0;
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .sub-title {
+    text-align: center;
+    margin-bottom: 50px;
+    color:#727171;
+  }
+  
+
+  .input-field {
+    width: 90%;
+    padding:11px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #efefef;
+    font-size: 16.5px;
+  }
+  
+  .submit-button {
+    width: 95%;
+    padding: 10px;
+    background-color: #502398;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    
+  }
+  
+  .submit-button:hover {
+    background-color: #6f3cb6;
+  }
+  .submit-button-otp {
+    margin-top: 17px;
+    margin-bottom: 38px;
+  }
+  .save-btn{
+    margin-top: 40px;
+  }
+
+  .terms {
+    text-align: center;
+  }
+  .terms a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1589cc;
+  }
+
+  .input-container {
+    margin-top: -14px;
+    margin-bottom: 10px;
+  }
+  
+  .email-icon {
+    position: absolute;
+    left: 10px;
+    color: gray;
+    font-size: 20px;
+  }
+  
+  .error-message{
+    color: rgb(209, 8, 8);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 12px;
+  }
+  .timer-message{
+    font-size: 14px;
+    text-align: right;
+    margin-right: 16px;
+    color: #2d2d2d;
+    font-weight: 500;
+  }
+  .timer-message span{
+    font-size: 13px;
+    font-weight: 400;
+  }

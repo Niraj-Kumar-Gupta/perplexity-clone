@@ -1,0 +1,113 @@
+.otpBoxContainer{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.otpInputBar{
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 19px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #18087eaf;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+}
+.otpInputBar:focus{
+    border: 2px solid rgb(17, 171, 30);
+    box-shadow: 0 0 5px rgba(0, 255, 102, 0.5);
+}
+.btnsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.btns{
+    border: none;
+    background: #430aadd2;
+    font-size: 20px;
+    padding: 0.6rem 2.2rem;
+    color: rgb(220, 222, 224);
+    border-radius: 1.2rem;
+    box-shadow: 0px 0px 10px rgba(38, 2, 58, 0.346);
+    cursor: pointer;
+}
+.btnsBox{
+    padding-top:1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:6rem;
+}
+.textContainer h3{
+   line-height: 0;
+   font-size: 18px;
+   color: rgba(39, 8, 83, 0.791);
+   font-weight: 600;
+}
+.textContainer p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(78, 74, 94);
+    padding-bottom: 1.3rem;
+ }
+ .optIcon{
+    font-size: 5rem;
+    color: rgb(41, 8, 99);
+ }
+
+ .verifiedIcon {
+    color: rgb(0, 128, 17);
+    font-size:2.7rem;
+  }
+  .resend{
+    font-size: 16px;
+    line-height: 1.3;
+    color: rgb(78, 74, 94);
+    
+  }
+  .resend span{
+    /*  */
+    font-weight: 500;
+    text-decoration: underline;
+    
+  }
+  .resend span2{
+    color: rgba(220, 15, 15, 0.863);
+    font-weight: 600;
+  }
+  .textLight{
+    color: rgba(143, 141, 141, 0.638);
+    cursor:not-allowed;
+
+  }
+  .textDark{
+    color: rgba(6, 10, 65, 0.848);
+    cursor:pointer;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: translateX(0) scale(1); 
+    }
+    25% {
+      transform: translateX(-15px) scale(1.05);
+    }
+    50% {
+      transform: translateX(15px) scale(1.05); 
+    }
+    75% {
+      transform: translateX(-15px) scale(1.05); 
+    }
+    100% {
+      transform: translateX(0) scale(1); 
+    }
+  }
+  
+  .shake {
+    animation: shake 0.3s ease-in-out;
+    border: 2px solid rgb(223, 103, 103); 
+  }
+  

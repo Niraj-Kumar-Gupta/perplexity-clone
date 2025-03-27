@@ -1,0 +1,18 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "9000:9000"
+    environment:
+      - NODE_ENV=production
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8000:80"
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - backend

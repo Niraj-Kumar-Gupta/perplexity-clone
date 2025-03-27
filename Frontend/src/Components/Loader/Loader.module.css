@@ -1,0 +1,30 @@
+.bubbleLoader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+.bubble{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #150651;
+    margin: 0 3px;
+    animation: bounce 0.8s ease-in-out infinite alternate;
+}
+  .bubble:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+
+  .bubble:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }

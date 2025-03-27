@@ -1,0 +1,56 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ebe9f0;
+    border-bottom: 1px solid #261ad618;
+    box-shadow: 0px 0px 30px rgba(82, 82, 82, 0.11);
+    padding: 0rem 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 110;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.logo-container img:first-child{
+   width: auto;
+   height: 40px;
+   /* display: none; */
+}
+.logo-container img:last-child{
+    width: auto;
+    height: 70px;
+ }
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.right-container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.right-container1 .icons{
+    outline:3px solid rgba(180, 25, 25, 0.862);
+    border-radius: 50%;
+    font-size: 2.5rem
+}
+.right-container1 span{
+    font-size: 18px;
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+.right-container button{
+    border: none;
+    padding: 12px 10px;
+    border-radius: 9px;
+    background: #057e23;
+    color:rgb(223, 222, 219);
+    cursor: pointer;
+}

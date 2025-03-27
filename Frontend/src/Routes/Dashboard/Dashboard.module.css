@@ -1,0 +1,41 @@
+.dashboard{
+    width: 100%;
+}
+
+
+.dashboardContainer {
+    width: 100%;
+}
+.cardContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.card{
+    margin:16rem 0rem;
+    width: 15rem;
+    height: 14rem;
+    border: 1px solid #bfbebe48;
+    border-radius: 10px;
+    background: #f4f8fe;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(55, 37, 74, 0.285);
+    cursor:pointer;
+}
+.genaiLogo{
+    padding-top: 1rem;
+    width: 70%;
+    height:auto;
+}
+.card p{
+  font-size: 1.2rem;
+  color: #18103474;
+  font-weight: 600;
+}
