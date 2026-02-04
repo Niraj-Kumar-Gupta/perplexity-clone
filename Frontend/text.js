@@ -1,6 +1,6 @@
 // import Groq from "groq-sdk";
 
-// const groq = new Groq({ apiKey: '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' });
+// const groq = new Groq({ apiKey: });
 
 // async function main() {
 //   const completion = await groq.chat.completions
